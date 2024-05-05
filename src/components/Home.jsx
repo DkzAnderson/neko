@@ -2,7 +2,7 @@ import React from 'react'
 import data from '../../backend/scripts/functions'
 import { CardSerie } from './CardSerie'
 
-export const Home = () => {
+export const Home = ({listState,setListState}) => {
 
     const styles = {
         main  : 'w-full h-full p-5 items-center justify-center',
@@ -10,6 +10,7 @@ export const Home = () => {
 
     }
 
+    console.log(listState);
 
   return (
     <section className={styles.main}>

@@ -117,7 +117,11 @@ export const MediaPlayer = () => {
                     className={styles.episodeListItem}
                     onClick={e=>{ShowEpisode(e,epNo,eps.url)}}
                   >
-                    Capitulo {cap}
+                    <a 
+                    href={`/neko/${serie.name}/${season.name}/${cap}`}
+                    >
+                      Capitulo {cap}
+                    </a>
                   </li>
                 )
               })
