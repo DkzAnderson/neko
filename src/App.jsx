@@ -13,7 +13,7 @@ function App() {
 
   const mainStyles = {
     header : 'w-full border-b font-nunito',
-    main : 'w-full h-full font-nunito',
+    main : 'w-full h-full font-nunito flex items-center justify-center',
     footer : 'w-full flex justify-center items-center border-t h-20 font-nunito',
     titles: 'text-3xl neko-title'
   }
